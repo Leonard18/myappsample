@@ -36,7 +36,9 @@ Add the name of the files you don't want to commit to the .gitignore file. *.txt
 
 git branch <branch name>					//Create a branch for separate work or user
 
-git checkout <branch name>					//To change to any created branch
+git checkout <branch name>					//To change to any created branch. When you change branch, the files the current branch was working on will disappear when the new branch is signed in.
+
+git merge <branch name>						//This will merge the changes made in the branch specified to the signed in branch
 
 
 
