@@ -40,9 +40,28 @@ git checkout <branch name>					//To change to any created branch. When you chang
 
 git merge <branch name>						//This will merge the changes made in the branch specified to the signed in branch
 
+git remote (-v)(optional)					//To check if there is an existing remote. Returns remote info if there is one and nothing if there is none
 
 
 
 
 
 
+
+
+
+…or create a new repository on the command line
+echo "# myappsample" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Leonard18/myappsample.git
+git push -u origin main
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Leonard18/myappsample.git
+git branch -M main
+git push -u origin main
