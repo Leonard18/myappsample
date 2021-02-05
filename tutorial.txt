@@ -1,0 +1,40 @@
+git init 							//Intializes a Local Git Repository
+
+git add <file>							//Add File(s) To Index
+
+git status 							//Check Status Of Working Tree
+
+git commit							//Commit Changes In Index
+
+git push 							//Push To Remote Repository eg Github, BitBucket
+
+git pull 							//Pull Latest Version From Remote Repository
+
+git clone 							//Clone Remote Repository Into A New Directory
+
+
+
+git --version 							//To Check Your Git Version
+
+git config --global user.name "your name here"			//Add your name to git
+
+git config --global user.email "your email here"		//Add your email to git
+
+git rm --cached <file name>					//Remove a File From Git Staging Area
+
+git add *.html 							//Add Any File With A .html Extension To Git Repository
+
+git rm --cached *.html						//Remove Any File With A .html Extension From Git Staging Area
+
+git add . 							//Add All Files in the Working Folder To Git Repository
+
+git commit -m "Your message here" 				//Commit With Your Custom Message And Skip Editing During Commit In The Git Terminal
+
+.gitignore 							//A File That Won't Get Committed At All
+
+Add the name of the files you don't want to commit to the .gitignore file. *.txt(will exclude all files with .txt extention) and so one
+
+
+
+
+
