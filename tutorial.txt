@@ -34,6 +34,12 @@ git commit -m "Your message here" 				//Commit With Your Custom Message And Skip
 
 Add the name of the files you don't want to commit to the .gitignore file. *.txt(will exclude all files with .txt extention) and so one
 
+git branch <branch name>					//Create a branch for separate work or user
+
+git checkout <branch name>					//To change to any created branch
+
+
+
 
 
 
