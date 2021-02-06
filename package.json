@@ -6,6 +6,9 @@
   "scripts": {
      "start": "harp server --port $PORT"
   },
+ "dependencies": {
+    "harp": "*"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Leonard18/myappsample.git"
@@ -14,6 +17,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Leonard18/myappsample/issues"
-  },
-  "homepage": "https://github.com/Leonard18/myappsample#readme"
+  }
 }
