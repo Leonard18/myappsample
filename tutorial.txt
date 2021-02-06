@@ -45,11 +45,6 @@ git remote (-v)(optional)					//To check if there is an existing remote. Returns
 
 
 
-
-
-
-
-
 …or create a new repository on the command line
 echo "# myappsample" >> README.md
 git init
@@ -65,3 +60,11 @@ git push -u origin main
 git remote add origin https://github.com/Leonard18/myappsample.git
 git branch -M main
 git push -u origin main
+
+
+
+//Add a Package.json file
+npm init
+> npm set init.author.email "example-user@example.com"
+> npm set init.author.name "example_user"
+> npm set init.license "MIT"
