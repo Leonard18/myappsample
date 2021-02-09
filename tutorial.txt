@@ -1,3 +1,17 @@
+* Git?
+	It is a version control system. It tracks the changes on your code over time. 
+
+* Version Control?
+	It is the management of changes to documents, computer programs, large websites, and other collection of information.
+
+* Repository?
+	Project, or the folder/place where your project is kept
+
+* Github?
+	A website to host your repositories online.
+
+
+
 git init 							//Intializes a Local Git Repository
 
 git add <file>							//Add File(s) To Index
@@ -12,6 +26,21 @@ git pull 							//Pull Latest Version From Remote Repository
 
 git clone 							//Clone Remote Repository Into A New Directory
 
+git diff <branch name> 						//Shows you the changes that have been made by other branches.
+
+git branch -d <branch name>					//Delete a branch from your repo.
+
+* git commit -am "your message here"				//A shortcut for "git add ." and "git commit -m 'your message'" at the same time. It only works for modified files and not for newly created file(s).
+
+* git reset <name of file>(optional)				//Undo the most recent add
+
+* git reset HEAD~1						//Undo the most recent commit
+
+* git log							//Returns a log of all your commits
+
+* git reset <commid id>						//Reset to previous step of the commit id specified.
+
+* gut reset --hard <commit id>					//Remove all of the changes made to the file - not just unstaged but to be completely removed.
 
 
 git --version 							//To Check Your Git Version
@@ -30,7 +59,7 @@ git add . 							//Add All Files in the Working Folder To Git Repository
 
 git commit -m "Your message here" 				//Commit With Your Custom Message And Skip Editing During Commit In The Git Terminal
 
-.gitignore 							//A File That Won't Get Committed At All
+.gitignore 							//A File That Holds A List Of Files That Won't Get Committed At All
 
 Add the name of the files you don't want to commit to the .gitignore file. *.txt(will exclude all files with .txt extention) and so one
 
